@@ -32,5 +32,6 @@ TrickyAspectJPointcutExpressionTests.java
 
 ```java
 AspectJAwareAdvisorAutoProxyCreator.java
+ProxyFactoryTests.java
 ```
 
