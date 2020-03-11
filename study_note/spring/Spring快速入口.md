@@ -14,10 +14,13 @@ GenericConversionServiceTests.java
 ```
 
 ### 资源获取类
-
 ```java
 PathMatchingResourcePatternResolverTests.java
 ClassPathResourceTests.java  
+```
+### Properties属性加载
+```java
+PropertiesLoaderUtils.loadProperties(propertyResource);
 ```
 ### AOP测试类
 
