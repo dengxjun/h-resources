@@ -20,7 +20,12 @@ ClassPathResourceTests.java
 ```
 ### Properties属性加载
 ```java
+//spring运行时注入熟悉
 PropertiesLoaderUtils.loadProperties(propertyResource);
+
+//properties属性注入给某个对象
+// spring boot2 可以用 org.springframework.boot.context.properties.bind.Binder
+new RelaxedDataBinder(configFromListener).bind(new MutablePropertyValues(properties));
 ```
 ### AOP测试类
 
